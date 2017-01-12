@@ -11,7 +11,7 @@ p {
 	height: 300px;
 	width: 33.3%;
 	background-color:gray;
-	font-color:FFFFFF;
+	color:FFFFFF;
 	font-size: 15px;
 	border: 2px;
 }
@@ -19,8 +19,8 @@ p {
 div.chicken>p {
 	font-size:30px;
  	background-color:8A5C8E;
-    color: 000000;
-    text-align:right;
+   	color: 000000;
+        text-align:right;
 
 }
 div.beef>p {
