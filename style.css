@@ -1,15 +1,16 @@
 #container {
-	background-color: #93D8D6;
+	
 	/*width: 100%;
 	height: 100%;
 	padding: 10px; */
 	margin:0px;
 	padding:0px;
+	background-color: #93D8D6;
 
 }
-/**{
-	box-sizing: border-box;
-}*/
+*{
+ 	box-sizing: border-box;
+}
 body {
 	margin:0px;
 	padding:0px;
@@ -23,26 +24,26 @@ body {
 	color:#000000;
 	font-size: 15px;
 	border:2px solid black;
-	margin: 30px;
+	
 	
 }
 
 .chicken {
 	position: absolute;
 	left:2.5%;
-	top:0px;
+	top:30px;
 }
 
 .beef {
 	position: absolute;
 	left:35%;
-	top:0px;
+	top:30px;
 }
 
 .sushi {
 	position: absolute;
 	left:67.5%;
-	top:0px;
+	top:30px;
 }
 
 #text {
