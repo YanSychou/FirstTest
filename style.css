@@ -1,40 +1,84 @@
-<!doctype html>
-<html>
-  <head>
-    <link href='//fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <title>Menu</title>
-  </head>
-<body>  
-<div id=container>
-  <div id="sub-container" class="chicken">
-    
-    
-    <p> Chicken</p>
-    <div id="text">
-    The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl. It is one of the most common and widespread domestic animals, with a population of more than 19 billion as of 2011. Humans keep chickens primarily as a source of food, consuming both their meat and their eggs.
-    
-    </div>
-  </div>
+#container {
+	background-color: #93D8D6;
+	/*width: 100%;
+	height: 100%;
+	padding: 10px; */
+	margin:0px;
+	padding:0px;
 
-  <div id="sub-container" class="beef">
-    
-    <p> Beef</p> 
-    <div id="text">
-    Beef is the culinary name for meat from cattle. Beef can be harvested from bulls, cows, heifers or steers. Its acceptability as a food source varies in different parts of the world.Beef muscle meat can be cut into roasts, short ribs or steak (filet mignon, sirloin steak, rump steak, rib steak, rib eye steak, hanger steak, etc.). Some cuts are processed (corned beef or beef jerky), and trimmings, usually mixed with meat from older, leaner cattle, are ground, minced or used in sausages. The blood is used in some varieties of blood sausage. 
-    
-    </div>
-  </div>
+}
+/**{
+	box-sizing: border-box;
+}*/
+body {
+	margin:0px;
+	padding:0px;
+	/*background-color: #5F1F55;*/
 
-  <div id="sub-container" class="sushi">
-    
-    <p> Sushi</p>
-    <div id="text">
-    Sushi  is the Japanese preparation and serving of cooked vinegared rice  combined with varied ingredients , chiefly seafood, vegetables, meat, and occasionally tropical fruits. Styles of sushi and its presentation vary widely, but the key ingredient in all cases is the rice, also referred to as shari  or sumeshi.Sushi can be prepared with either brown or white rice. It is often prepared with raw seafood, but some common varieties of sushi use cooked ingredients, and many other sorts are vegetarian. Sushi is often served with pickled ginger, wasabi, and soy sauce. Daikon radish is popular as a garnish.
-   
-   </div>
-  </div>
-  
-</div> 
-</body>
-</html>
+}
+#sub-container {
+	height:180px;
+	width:30%;
+	background-color:gray;
+	color:#000000;
+	font-size: 15px;
+	border:2px solid black;
+	margin: 30px;
+	
+}
+
+.chicken {
+	position: absolute;
+	left:2.5%;
+	top:0px;
+}
+
+.beef {
+	position: absolute;
+	left:35%;
+	top:0px;
+}
+
+.sushi {
+	position: absolute;
+	left:67.5%;
+	top:0px;
+}
+
+#text {
+	padding:5px 30px 5px 5px;
+	font-family:Georgia, serif;	
+	font-style: italic;
+	overflow:auto;
+}
+
+p {
+    margin:-2px -2px 0px 70%;
+    border:2px solid black;
+	font-size: 25px;
+	text-align:right;
+	padding-right:3%;
+	font-family: 'Rubik';
+	font-style:normal;
+	font-weight: 600;
+	
+	
+}	
+
+div.chicken p {
+ 	background-color:#8A5C8E;
+    color: #000000;
+
+}
+
+div.beef p {	
+	background-color:#B01C31;
+	color: #FFFFFF;
+	
+}
+
+div.sushi p {	
+	background-color:#E0C957;
+	color: #000000;
+	
+}
